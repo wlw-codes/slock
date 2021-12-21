@@ -3,9 +3,9 @@ static const char *user  = "will";
 static const char *group = "wheel";
 
 static const char *colorname[NUMCOLS] = {
-	[INIT] =   "black",     /* after initialization */
-	[INPUT] =  "#005577",   /* during input */
-	[FAILED] = "#CC3333",   /* wrong password */
+	[INIT] =   "#282828",     /* after initialization */
+	[INPUT] =  "#458588",   /* during input */
+	[FAILED] = "#cc214d",   /* wrong password */
 };
 
 /* treat a cleared input like a wrong password (color) */
@@ -15,7 +15,7 @@ static const int failonclear = 1;
 static const int monitortime = 30;
 
 /* insert grid pattern with scale 1:1, the size can be changed with logosize */
-static const int logosize = 75;
+static const int logosize = 150;
 /* grid width and height for right center alignment */
 static const int logow = 12;
 static const int logoh = 6;
